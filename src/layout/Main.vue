@@ -1,13 +1,13 @@
 <template>
     <div>
-        <router-view/>
+        <RouterView/>
     </div>
 </template>
 
 <script setup>
-    export default {
-        
-    }
+import { RouterView } from 'vue-router';
+
+    
 </script>
 
 <style scoped>

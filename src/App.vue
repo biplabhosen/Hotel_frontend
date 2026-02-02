@@ -1,8 +1,10 @@
 <template>
-  <RouterView/>
+  <Main/>
 </template>
 
-<script lang="ts" setup>
+<script setup>
+import Main from './layout/Main.vue';
+
 
 </script>
 
